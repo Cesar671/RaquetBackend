@@ -33,8 +33,8 @@ export class AdminAuthController {
     const token = this.auth.createSession(username)
     response.cookie(this.auth.cookieName, token, {
       httpOnly: true,
-      sameSite: 'strict',
-      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'none',
+      secure: true,
       path: '/api/admin',
       maxAge: this.auth.sessionDurationSeconds * 1000,
     })
@@ -54,8 +54,8 @@ export class AdminAuthController {
   logout(@Res({ passthrough: true }) response: Response) {
     response.clearCookie(this.auth.cookieName, {
       httpOnly: true,
-      sameSite: 'strict',
-      secure: process.env.NODE_ENV === 'production',
+      sameSite: 'none',
+      secure: true,
       path: '/api/admin',
     })
     return { loggedOut: true }
