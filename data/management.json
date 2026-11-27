@@ -1,0 +1,201 @@
+{
+  "courts": [
+    {
+      "id": 1,
+      "name": "Cancha 1",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Cancha 2",
+      "active": true
+    }
+  ],
+  "openingHours": {
+    "courts": [
+      {
+        "id": "weekday",
+        "label": "Lunes a viernes",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "opensAt": "16:00",
+        "closesAt": "23:00"
+      },
+      {
+        "id": "weekend",
+        "label": "Sábados y domingos",
+        "days": [
+          0,
+          6
+        ],
+        "opensAt": "10:00",
+        "closesAt": "22:00"
+      }
+    ],
+    "sauna": [
+      {
+        "id": "weekday",
+        "label": "Lunes a viernes",
+        "days": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "opensAt": "16:00",
+        "closesAt": "21:00"
+      },
+      {
+        "id": "weekend",
+        "label": "Sábados y domingos",
+        "days": [
+          0,
+          6
+        ],
+        "opensAt": "11:00",
+        "closesAt": "21:00"
+      }
+    ]
+  },
+  "prices": [
+    {
+      "id": "wally-without-ball",
+      "category": "courts",
+      "label": "Wally sin balón",
+      "amount": 35,
+      "currency": "Bs",
+      "unit": "por hora",
+      "active": true
+    },
+    {
+      "id": "wally-with-ball",
+      "category": "courts",
+      "label": "Wally con balón",
+      "amount": 40,
+      "currency": "Bs",
+      "unit": "por hora",
+      "active": true
+    },
+    {
+      "id": "raquet-hour",
+      "category": "courts",
+      "label": "Raquet",
+      "amount": 40,
+      "currency": "Bs",
+      "unit": "por hora",
+      "active": true
+    },
+    {
+      "id": "sauna-one-person",
+      "category": "sauna",
+      "label": "1 persona",
+      "amount": 25,
+      "currency": "Bs",
+      "unit": "por hora",
+      "active": true
+    },
+    {
+      "id": "sauna-two-people",
+      "category": "sauna",
+      "label": "2 personas",
+      "amount": 40,
+      "currency": "Bs",
+      "unit": "por hora",
+      "active": true
+    },
+    {
+      "id": "sauna-additional-person",
+      "category": "sauna",
+      "label": "Persona adicional (desde la 3.ª)",
+      "amount": 13,
+      "currency": "Bs",
+      "unit": "por hora",
+      "active": true
+    },
+    {
+      "id": "sauna-child",
+      "category": "sauna",
+      "label": "Niños hasta 8 años",
+      "amount": 7,
+      "currency": "Bs",
+      "unit": "por hora",
+      "active": true
+    }
+  ],
+  "services": [
+    {
+      "id": "wally",
+      "name": "Wally",
+      "active": true
+    },
+    {
+      "id": "raquet",
+      "name": "Raquet",
+      "active": true
+    },
+    {
+      "id": "sauna",
+      "name": "Sauna",
+      "active": true
+    },
+    {
+      "id": "ball-rental",
+      "name": "Flete de balones",
+      "active": true
+    },
+    {
+      "id": "snack",
+      "name": "Snack",
+      "active": true
+    },
+    {
+      "id": "showers",
+      "name": "Duchas",
+      "active": true
+    },
+    {
+      "id": "motorcycle-parking",
+      "name": "Parqueo de motos",
+      "active": true
+    }
+  ],
+  "contact": {
+    "landline": "4243128",
+    "mobile": "+591 71749816",
+    "whatsappNumber": "59171749816"
+  },
+  "location": {
+    "coordinates": "-17.390320431403598,-66.17366869279044",
+    "timeZone": "America/La_Paz"
+  },
+  "announcements": [
+    {
+      "id": "9e019f91-2a91-4e7e-8fe4-feca922cbf29",
+      "title": "Feriado atencion desde",
+      "message": "adsadqweqweqwe",
+      "active": true,
+      "createdAt": "2026-11-26T23:47:29.508Z",
+      "updatedAt": "2026-11-27T01:00:42.629Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "fc918a41-e323-4269-92b4-ebd946dc071d",
+      "title": "descuento para estudianets",
+      "description": "asdadsqweqeqwe",
+      "conditions": "valido para reservas de mas de una hora los dias",
+      "discountAmount": 10,
+      "startsOn": "2026-11-26",
+      "endsOn": "2026-12-03",
+      "active": true,
+      "createdAt": "2026-11-27T00:32:01.715Z",
+      "updatedAt": "2026-11-27T00:32:01.715Z"
+    }
+  ]
+}

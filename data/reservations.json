@@ -1,0 +1,154 @@
+[
+  {
+    "id": "WR-177D362A-6B3C-4C29-B370-A752CD11E37E",
+    "reservationName": "asdas",
+    "phone": "73751241",
+    "gameType": "Raquet",
+    "paymentMethod": "Pago por QR",
+    "bookings": [
+      {
+        "date": "2026-11-26",
+        "courtId": 1,
+        "hours": [
+          "20:00"
+        ]
+      }
+    ],
+    "createdAt": "2026-11-26T23:10:08.062Z",
+    "whatsappDelivery": {
+      "status": "not-configured",
+      "provider": "meta-whatsapp-cloud-api",
+      "recipient": "59173751241"
+    }
+  },
+  {
+    "id": "WR-C4A12C7D-6206-4FA5-A4BB-C879FE70D0E3",
+    "reservationName": "cesar",
+    "phone": "73751241",
+    "gameType": "Wally",
+    "paymentMethod": "Pago por QR",
+    "bookings": [
+      {
+        "date": "2026-11-26",
+        "courtId": 1,
+        "hours": [
+          "21:00"
+        ]
+      }
+    ],
+    "createdAt": "2026-11-26T23:11:34.049Z",
+    "whatsappDelivery": {
+      "status": "not-configured",
+      "provider": "meta-whatsapp-cloud-api",
+      "recipient": "59173751241"
+    }
+  },
+  {
+    "id": "WR-13E9B24C-4109-4FAF-ADBF-C450562C0ACB",
+    "reservationName": "asdasd",
+    "phone": "73751241",
+    "gameType": "Wally",
+    "paymentMethod": "Pago por QR",
+    "bookings": [
+      {
+        "date": "2026-11-26",
+        "courtId": 1,
+        "hours": [
+          "19:00"
+        ]
+      }
+    ],
+    "createdAt": "2026-11-26T23:39:15.207Z",
+    "whatsappDelivery": {
+      "status": "not-configured",
+      "provider": "meta-whatsapp-cloud-api",
+      "recipient": "59173751241"
+    }
+  },
+  {
+    "id": "WR-0CD3265D-F058-4DD9-BB84-FB6ABEE3F242",
+    "reservationName": "asdqwe",
+    "phone": "77777777",
+    "gameType": "Wally",
+    "paymentMethod": "Pago por QR",
+    "bookings": [
+      {
+        "date": "2026-11-26",
+        "courtId": 1,
+        "hours": [
+          "18:00",
+          "17:00"
+        ]
+      }
+    ],
+    "createdAt": "2026-11-26T23:57:39.812Z",
+    "status": "confirmed",
+    "whatsappDelivery": {
+      "status": "not-configured",
+      "provider": "meta-whatsapp-cloud-api",
+      "recipient": "59177777777",
+      "missingConfiguration": [
+        "WHATSAPP_CLOUD_API_TOKEN",
+        "WHATSAPP_PHONE_NUMBER_ID",
+        "WHATSAPP_TEMPLATE_NAME"
+      ]
+    }
+  },
+  {
+    "id": "WR-CCD3C8C7-5644-45F3-BE2F-C6E5FA0E32F2",
+    "reservationName": "asdasd",
+    "phone": "77777777",
+    "gameType": "Raquet",
+    "paymentMethod": "Pago por QR",
+    "bookings": [
+      {
+        "date": "2026-12-04",
+        "courtId": 1,
+        "hours": [
+          "20:00"
+        ]
+      }
+    ],
+    "createdAt": "2026-11-27T00:04:01.612Z",
+    "status": "confirmed",
+    "whatsappDelivery": {
+      "status": "not-configured",
+      "provider": "meta-whatsapp-cloud-api",
+      "recipient": "59177777777",
+      "missingConfiguration": [
+        "WHATSAPP_CLOUD_API_TOKEN",
+        "WHATSAPP_PHONE_NUMBER_ID",
+        "WHATSAPP_TEMPLATE_NAME"
+      ]
+    }
+  },
+  {
+    "id": "WR-D2E16AAC-2F34-44F0-8CC9-8B52686EFCF8",
+    "reservationName": "qweqweqwe",
+    "phone": "79797979",
+    "gameType": "Wally",
+    "paymentMethod": "Confirmación por WhatsApp",
+    "bookings": [
+      {
+        "date": "2026-11-27",
+        "courtId": 1,
+        "hours": [
+          "16:00",
+          "17:00"
+        ]
+      }
+    ],
+    "createdAt": "2026-11-27T00:29:26.270Z",
+    "status": "confirmed",
+    "whatsappDelivery": {
+      "status": "not-configured",
+      "provider": "meta-whatsapp-cloud-api",
+      "recipient": "59179797979",
+      "missingConfiguration": [
+        "WHATSAPP_CLOUD_API_TOKEN",
+        "WHATSAPP_PHONE_NUMBER_ID",
+        "WHATSAPP_TEMPLATE_NAME"
+      ]
+    }
+  }
+]
